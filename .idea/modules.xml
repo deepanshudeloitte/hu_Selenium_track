@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/hu_Selenium_track.iml" filepath="$PROJECT_DIR$/.idea/hu_Selenium_track.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mini assignment 2/mini assignment 2.iml" filepath="$PROJECT_DIR$/mini assignment 2/mini assignment 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miniAssignment2/miniAssignment2.iml" filepath="$PROJECT_DIR$/miniAssignment2/miniAssignment2.iml" />
     </modules>
   </component>
 </project>
