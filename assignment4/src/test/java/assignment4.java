@@ -20,7 +20,7 @@ public class assignment4 {
         String actualUrl="https://www.saucedemo.com/inventory.html";
         String expectedUrl= driver.getCurrentUrl();
         Assert.assertEquals(expectedUrl,actualUrl);
-        if( driver.findElement(By.xpath("add-to-cart-sauce-labs-fleece-jacket")).isEnabled()){
+        if( driver.findElement(By.xpath("//*[@id=\"add-to-cart-sauce-labs-fleece-jacket\"]")).isEnabled()){
             Assert.assertTrue(Integer.parseInt(driver.findElement(By.xpath("//*[@id='inventory_container']/div/div[1]/div[2]/div[2]/div/text()[2]") ).getText())<=100);
             driver.findElement(By.xpath("add-to-cart-sauce-labs-fleece-jacket")).click();
         }
